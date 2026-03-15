@@ -8,7 +8,7 @@ ENV PATH="$VITE_PLUS_HOME/bin:$PATH"
 WORKDIR /app
 
 RUN apt-get update && \
-	apt-get install -y --no-install-recommends ca-certificates curl && \
+	apt-get install -y --no-install-recommends ca-certificates curl git && \
 	curl -fsSL https://vite.plus/ | bash && \
 	rm -rf /var/lib/apt/lists/*
 
