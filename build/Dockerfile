@@ -2,7 +2,7 @@ FROM debian:bookworm-slim
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-ARG VP_VERSION=0.1.16
+ARG VP_VERSION=latest
 ARG VP_NODE_MANAGER=yes
 
 ENV VP_VERSION=${VP_VERSION}
