@@ -52,3 +52,7 @@ export default {
   }
 }
 ```
+
+---
+
+[`somehow.digital`](https://somehow.digital/)
